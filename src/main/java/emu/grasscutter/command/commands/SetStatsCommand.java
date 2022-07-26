@@ -27,9 +27,9 @@ public final class SetStatsCommand implements CommandHandler {
             this.prop = prop;
         }
     }
-    
+
     Map<String, Stat> stats;
-    
+
     public SetStatsCommand() {
         this.stats = new HashMap<>();
         for (String key : FightProperty.getShortNames()) {
